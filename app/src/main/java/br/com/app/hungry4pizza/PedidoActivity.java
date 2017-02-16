@@ -53,7 +53,7 @@ public class PedidoActivity extends AppCompatActivity {
 
     //Clique do botão
     public void calcular(View view) {
-    //Recuperar o ID do RadioButton Selecionado
+        //Recuperar o ID do RadioButton Selecionado
         int idSelecionado = rgTamanhoPizza.getCheckedRadioButtonId();
         int valorTamanhoPizza = 0;
         double valor = 0;
@@ -92,9 +92,11 @@ public class PedidoActivity extends AppCompatActivity {
         if (cbMussarela.isChecked()) {
             valor += 2 + valorTamanhoPizza;
         }
-//Recuperar o pagamento selecionado
+
+        //Recuperar o pagamento selecionado
         String pagamento = (String) spPagamentos.getSelectedItem();
-//Exibir a confirmação do pedido
+
+        //Exibir a confirmação do pedido
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
         alert.setTitle("Confirmação");
         alert.setMessage("Valor: " + valor + " \n Pagamento: " + pagamento);

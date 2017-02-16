@@ -54,7 +54,7 @@
                     android:layout_weight="0.5"
                     android:checked="false"
                     android:text="@string/txt_pizza_bacon" />
-            </ LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -76,8 +76,8 @@
                     android:layout_weight="0.5"
                     android:checked="false"
                     android:text="@string/txt_pizza_mussarela" />
-            </ LinearLayout>
-        </ LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -115,8 +115,8 @@
                     android:layout_height="wrap_content"
                     android:checked="false"
                     android:text="@string/txt_pizza_grande" />
-            </ RadioGroup>
-        </ LinearLayout>
+            </RadioGroup>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/tvFormaPagamento"
@@ -163,7 +163,7 @@
                     android:layout_weight="0.5"
                     android:checked="false"
                     android:text="@string/txt_recheio_extra" />
-            </ LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -185,8 +185,8 @@
                     android:layout_weight="0.5"
                     android:checked="false"
                     android:text="@string/txt_sobremesa" />
-            </ LinearLayout>
-        </ LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
 
         <Button
             android:id="@+id/button"
@@ -196,5 +196,5 @@
             android:onClick="calcular"
             android:text="@string/txt_calcular"
             style="@style/Fiap.Botao"/>
-    </ LinearLayout>
-</ ScrollView>
+    </LinearLayout>
+</ScrollView>
